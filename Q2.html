@@ -1,0 +1,36 @@
+
+  
+
+<div class="example-form example-form_before">
+      <div class="example-title">聯絡</div>
+      <form method="post" action="https://send.pageclip.co/uLHUxztMTNIK2IljRIEgBJh6JVi7QruG/yty">
+        <div class="form-group">
+          <label>名稱</label>
+          <input class="form-control" type="text" name="name" value="Roscoe Jones" />
+         
+           <label>電子郵件</label>
+          <input
+            required
+            class="form-control"
+            type="email"
+            name="email"
+            data-valueMissing="Need an email!"
+            data-patternMismatch="Only a and b characters allowed!"
+            placeholder="a@b.com" />
+        </div>
+        
+        <div class="form-group">
+          <label>內容</label>
+          <textarea
+            required
+            class="form-control"
+            name="story"
+            pattern="[ab ]+"
+            rows="4"
+            data-valueMissing="Write me a story plz"
+            data-patternMismatch="Plz only a and b characters!"
+            placeholder="Tell me a story!"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <link rel="stylesheet" href="https://valid-form.pageclip.co/site/style.css"><html>
